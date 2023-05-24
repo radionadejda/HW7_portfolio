@@ -6,7 +6,6 @@ body {
   color: whitesmoke;
   text-decoration: none;
 }
-
 #switcher1 {
   display: flex;
   justify-content: center;
@@ -247,7 +246,7 @@ a img {
   text-align: center;
    }
 
-.work {
+.link {
   width: 364px;
   height: 225px;
   border-radius: 30px;
@@ -258,7 +257,7 @@ a img {
   padding: 5px;
 }
 
-.work::before {
+.link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -270,7 +269,7 @@ a img {
   transition: opacity 0.3s;
 }
 
-.work:active::after {
+.link:active::after {
   content: "";
   position: absolute;
   top: 0;
@@ -281,16 +280,16 @@ a img {
   z-index: 1;
 }
 
-.work:active::before,
-.work:hover::before {
+.link:active::before,
+.link:hover::before {
   opacity: 1;
 }
 
-.work:hover .text_button {
+.link:hover .text_button {
   opacity: 1;
 }
 
-.work .text_button {
+.link .text_button {
   opacity: 0;
 }
 
